@@ -17,6 +17,7 @@ export default {
           muted: '#9C8A7A',
           divider: '#E6DCCB',
           teal: '#2F6B5F',
+          forest: '#1F4F46',
         },
       },
       boxShadow: {
