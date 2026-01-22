@@ -1,10 +1,11 @@
+import type { ReactNode } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { FiFacebook, FiInstagram, FiYoutube, FiLinkedin } from 'react-icons/fi'
 
 import { navLinks, contactDetails } from '@/data/siteContent'
 
-const socialIconMap: Record<string, JSX.Element> = {
+const socialIconMap: Record<string, ReactNode> = {
   Facebook: <FiFacebook size={20} />,
   Instagram: <FiInstagram size={20} />,
   YouTube: <FiYoutube size={20} />,
