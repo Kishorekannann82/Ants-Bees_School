@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-sans bg-brand-cream text-brand-taupe antialiased;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background-color: rgba(47, 107, 95, 0.2);
+  color: theme('colors.brand.brown');
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: theme('colors.brand.cream');
+}
+
+::-webkit-scrollbar-thumb {
+  background: theme('colors.brand.gold');
+  border-radius: 9999px;
+}
